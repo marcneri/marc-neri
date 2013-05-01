@@ -67,6 +67,10 @@ table {
 
 /* ONLY CHANGE BELOW - RESET IS ABOVE */
 
+@font-face {
+	font-family: 'Roboto Slab', serif;
+}
+
 body {
   background: white;
   width: 960px auto;
@@ -77,7 +81,7 @@ footer,
 .container {
 	width: 960px;
 	margin: 0 auto;
-	padding: 20px 0;
+	padding: 10px 0 10px;
 }
 
 nav,
@@ -92,6 +96,7 @@ header {
 	
 footer {
 	margin-top: 100px;
+	padding: 20px 0;
 	border-top: 2px solid gray;
 	border-bottom: 2px solid gray;
 }
@@ -102,29 +107,35 @@ article {
 	float: left;
 }
 
-section {
-	border-bottom: 2px solid gray;
-}
-
 aside{
 	float: left;
 	width: 260px;
 }
 
+em {
+	font-style: italic;
+}
+
 /* Styles */
 
 h1, h2, h3, h4, p, li, a {
-	color: black;
+	color: #16426f;
 	font-size: 20px;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: sans-serif;
 	margin-bottom: 3px; 
+	line-height: 16px;
 }
 
 h1 {
 	font-size: 48px;
-	text-shadow: 1px 1px 0px white;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	margin-top: 10px;
+}
+
+h2 {
+	font-size: 18px;
+	margin-bottom: 6px;
+	font-weight: bold;
 }
 
 h3 {
@@ -132,29 +143,29 @@ h3 {
 }
 
 h4 {
-	text-transform: uppercase;
-	font-size: 20px;
+	color: #f4a22f;
+	font-size: 24px;
 	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
 }
 
-p {
+p, li {
 	font-size: 14px;
 	margin-bottom: 30px;
 }
 
 ul {
-	margin-top: 10px;
+	padding: 10px 20px 0px 0px;
 }
 
 li {
-	font-size: 14px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 img {
-	font-weight: bold;
 	width: 150px;
-	margin-bottom: 10px;
+	margin-bottom: 29px;
 }
 
 a {
@@ -172,7 +183,7 @@ a:hover {
 .col-1,
 .col-2,
 .col-3 {
-	width: 150px;
+	width: 170px;
 	padding: 20px 20px 0px 20px;
 	margin: 10px 10px 0px 10px;
 	float: left;
@@ -180,15 +191,27 @@ a:hover {
 
 .about {
 	width: 160px;
-	border-radius: 50%;
+	border-radius: 75%;
+	margin-bottom: 5px;
 }
 
 .facts {
-	width: 180px;
+	width: 200px;
 	padding: 10px;
 	margin: 20px 40px;
 }
 
-.community {
-	border: none;
+.intro {
+	width: 960px;
+}
+
+.photography {
+	width: 640px;
+	margin: 0 20px 20px 20px;
+	border: solid gray;
+}
+
+.journal {
+ 	border: none;
+ 	float: left
 }
