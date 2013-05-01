@@ -121,7 +121,7 @@ em {
 h1, h2, h3, h4, p, li, a {
 	color: #16426f;
 	font-size: 20px;
-	font-family: sans-serif;
+	font-family: 'Roboto Slab', serif;
 	margin-bottom: 3px; 
 	line-height: 16px;
 }
