@@ -160,7 +160,7 @@ h4 {
 	color: #f4a22f;
 	font-size: 24px;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-weight: bold;
 }
 
@@ -168,7 +168,6 @@ p, li {
 	font-size: 14px;
 	line-height: 20px;
 	margin-bottom: 12px;
-	padding-left: 2px;
 }
 
 img {
@@ -198,7 +197,7 @@ a:hover {
 	float: left;
 }
 
-.about {
+.about-pic {
 	width: 160px;
 	margin-bottom: 5px;
 	border: 2px solid gray;
