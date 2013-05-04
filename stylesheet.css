@@ -65,10 +65,10 @@ table {
   *zoom: 1;
 }
 
-/* ONLY CHANGE BELOW - RESET IS ABOVE */
+/* Element Formats */
 
 @font-face {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -91,6 +91,11 @@ footer {
 }
 
 header {
+	padding: 200px 0px 20px 0px;
+	background-image: url('images/header.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 960px auto;
 	border-bottom: 2px solid gray;
 }
 	
@@ -112,24 +117,33 @@ aside{
 	width: 260px;
 }
 
+ul {
+	padding: 10px 0px 0px 20px;
+	list-style-type: circle;
+}
+
+/* Typography */
+
 em {
 	font-style: italic;
 }
 
-/* Styles */
+b {
+	font-style: bold;
+}
 
 h1, h2, h3, h4, p, li, a {
 	color: #16426f;
 	font-size: 20px;
-	font-family: 'Roboto Slab', serif;
-	margin-bottom: 3px; 
-	line-height: 16px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-	font-size: 48px;
-	margin-bottom: 20px;
+	color: white;
+	font-size: 64px;
+	margin-bottom: 10px;
 	margin-top: 10px;
+	text-align: center;
 }
 
 h2 {
@@ -146,26 +160,21 @@ h4 {
 	color: #f4a22f;
 	font-size: 24px;
 	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	font-weight: bold;
 }
 
 p, li {
 	font-size: 14px;
-	margin-bottom: 30px;
-}
-
-ul {
-	padding: 10px 20px 0px 0px;
-}
-
-li {
-	margin-bottom: 10px;
+	line-height: 20px;
+	margin-bottom: 12px;
+	padding-left: 2px;
 }
 
 img {
 	width: 150px;
-	margin-bottom: 29px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 a {
@@ -191,8 +200,8 @@ a:hover {
 
 .about {
 	width: 160px;
-	border-radius: 75%;
 	margin-bottom: 5px;
+	border: 2px solid gray;
 }
 
 .facts {
@@ -211,7 +220,19 @@ a:hover {
 	border: solid gray;
 }
 
-.journal {
- 	border: none;
+.journal-section {
+ 	width: 760px;
  	float: left
+}
+
+.journal-aside {
+ 	width: 160px;
+ 	float: left
+}
+
+.svb-facts {
+	width: 450px;
+	margin-right: 20px;
+	margin-top: 30px;
+	float: left;
 }
