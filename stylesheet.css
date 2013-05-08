@@ -100,8 +100,7 @@ header {
 }
 	
 footer {
-	margin-top: 100px;
-	padding: 20px 0;
+	padding: 15px 0 10px;
 	border-top: 2px solid gray;
 	border-bottom: 2px solid gray;
 }
@@ -110,6 +109,7 @@ article {
 	background: white;
 	width: 700px;
 	float: left;
+	margin-bottom: 20px;
 }
 
 aside{
@@ -128,9 +128,6 @@ em {
 	font-style: italic;
 }
 
-b {
-	font-style: bold;
-}
 
 h1, h2, h3, h4, p, li, a {
 	color: #16426f;
@@ -160,7 +157,7 @@ h4 {
 	color: #f4a22f;
 	font-size: 24px;
 	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	font-weight: bold;
 }
 
@@ -168,6 +165,7 @@ p, li {
 	font-size: 14px;
 	line-height: 20px;
 	margin-bottom: 12px;
+	margin-bottom: 8px;
 }
 
 img {
@@ -178,22 +176,22 @@ img {
 
 a {
 	color: #f4a22f;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 0 5px;
 }
 
 a:hover {
-  color: #f4e12f;
+  color: #f8ec3a;
 }
 
 .col-1,
 .col-2,
 .col-3 {
 	width: 170px;
-	padding: 0px 20px 0px 20px;
-	margin: 10px 10px 0px 10px;
+	padding: 0px 20px 0px 10px;
+	margin: 10px 10px 0px 0px;
 	float: left;
 }
 
@@ -211,16 +209,26 @@ a:hover {
 
 .intro {
 	width: 960px;
+	margin-bottom: 20px;
 }
 
-.photography {
-	width: 640px;
-	margin: 0 20px 20px 20px;
-	border: solid gray;
+.about {
+	width: 180px;
+	border-radius: 90%;
 }
 
 .journal-section {
  	width: 760px;
+ 	float: left
+}
+
+.journal-section {
+ 	width: 760px;
+ 	float: left
+}
+
+.journal-aside {
+ 	width: 160px;
  	float: left
 }
 
@@ -235,3 +243,10 @@ a:hover {
 	margin-top: 30px;
 	float: left;
 }
+
+.link {
+	width: 60px;
+	margin: 0px;
+	padding: 0px;
+}
+
