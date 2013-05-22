@@ -73,43 +73,57 @@ table {
 
 body {
   background: white;
-  width: 960px auto;
+  width: 100%;
 }
 
 header, 
 footer, 
 .container {
-	width: 960px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 10px 0 10px;
 }
 
 nav,
-header,
-footer {	
+header {	
+	text-align: right;
+}
+
+footer {
 	text-align: center;
 }
 
 header {
-	padding: 200px 0px 20px 0px;
-	background-image: url('images/header.jpg');
+	padding: 240px 0px 20px 0px;
+	background-image: url('images/banner.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 960px auto;
+	background-size: cover;
+	background-attachment: fixed;
 	border-bottom: 2px solid gray;
 }
 	
 footer {
 	padding: 15px 0 10px;
-	border-top: 2px solid gray;
-	border-bottom: 2px solid gray;
 }
 
 article {
 	background: white;
-	width: 700px;
+	width: 100%;
 	float: left;
 	margin-bottom: 20px;
+}
+
+section {
+	width: 960px;
+	margin: 0 auto;	
+}
+
+.education {
+	background-image: white;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 aside{
@@ -129,7 +143,7 @@ em {
 }
 
 
-h1, h2, h3, h4, p, li, a {
+h1, h2, h3, h4, h5, h6, p, li, a {
 	color: #16426f;
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
@@ -137,28 +151,39 @@ h1, h2, h3, h4, p, li, a {
 
 h1 {
 	color: white;
-	font-size: 64px;
+	font-size: 78px;
 	margin-bottom: 10px;
 	margin-top: 10px;
-	text-align: center;
+	text-align: right;
 }
 
 h2 {
 	font-size: 18px;
 	margin-bottom: 6px;
 	font-weight: bold;
+	text-align: center;
 }
 
 h3 {
 	font-size: 30px;
 }
 
-h4 {
+h4, h5, h6 {
 	color: #f4a22f;
-	font-size: 24px;
+	font-size: 36px;
 	margin-top: 20px;
-	margin-bottom: 0px;
+	margin-bottom: 5px;
+	text-align: center;
 	font-weight: bold;
+}
+
+h5 {
+	color: white;
+}
+
+h6 {
+	font-size: 52px;
+	margin-bottom: 10px;
 }
 
 p, li {
@@ -166,12 +191,16 @@ p, li {
 	line-height: 20px;
 	margin-bottom: 12px;
 	margin-bottom: 8px;
+	text-align: center;
+}
+
+li {
+	text-align: left;
 }
 
 img {
 	width: 150px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	padding: 15px 70px 15px;
 }
 
 a {
@@ -183,28 +212,16 @@ a {
 }
 
 a:hover {
-  color: #f8ec3a;
+  color: white;
 }
 
 .col-1,
 .col-2,
 .col-3 {
-	width: 170px;
-	padding: 0px 20px 0px 10px;
-	margin: 10px 10px 0px 0px;
+	width: 280px;
+	padding: 0px 10px 0px 10px;
+	margin: 20px 10px 60px 10px;
 	float: left;
-}
-
-.about-pic {
-	width: 160px;
-	margin-bottom: 5px;
-	border: 2px solid gray;
-}
-
-.facts {
-	width: 200px;
-	padding: 10px;
-	margin: 20px 40px;
 }
 
 .intro {
@@ -212,33 +229,8 @@ a:hover {
 	margin-bottom: 20px;
 }
 
-.about {
-	width: 180px;
-	border-radius: 90%;
-}
-
-.journal-section {
- 	width: 760px;
- 	float: left
-}
-
-.journal-section {
- 	width: 760px;
- 	float: left
-}
-
-.journal-aside {
- 	width: 160px;
- 	float: left
-}
-
-.journal-aside {
- 	width: 160px;
- 	float: left
-}
-
 .svb-facts {
-	width: 450px;
+	width: 180px;
 	margin-right: 20px;
 	margin-top: 30px;
 	float: left;
@@ -250,3 +242,38 @@ a:hover {
 	padding: 0px;
 }
 
+.groundwork p {
+	color: white;
+}
+
+.groundwork h2 {
+	color: white;
+}
+
+.groundwork {
+	background: url('images/bricks.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.community-banner {
+	background: url('images/lurie.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.community p {
+	color: white;
+}
+
+.community h2 {
+	color: white;
+}
+
+.community h4 {
+	color: white;
+}
