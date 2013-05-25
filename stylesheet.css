@@ -95,7 +95,7 @@ footer {
 
 header {
 	padding: 240px 0px 20px 0px;
-	background-image: url('images/banner.jpg');
+	background-image: url('images/banner-2.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -146,10 +146,11 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
 h1 {
 	color: white;
-	font-size: 78px;
-	margin-bottom: 10px;
-	margin-top: 10px;
+	font-size: 74px;
+	margin-bottom: 5px;
+	margin-top: 20px;
 	text-align: right;
+	text-shadow: 0px 1px gray;
 }
 
 h2 {
@@ -222,12 +223,6 @@ a:hover {
 	margin-bottom: 20px;
 }
 
-.headshot {
-	width: 200px;
-	margin: 60px 60px;
-	float: left
-}
-
 .headshot-pic {
 	width: 200px;
 	padding: 0px;
@@ -237,11 +232,6 @@ a:hover {
 .welcome-page {
 	width: 960px;
 	margin: 0px auto;
-}
-
-.about-me {
-	width: 600px;
-	text-align: left;
 }
 
 .svb-facts {
@@ -283,6 +273,15 @@ a:hover {
 	background-size: cover;
 }
 
+.headshot,
+.headshot h4,
+.headshot p {
+	width: 720px;
+	margin: 20px auto;
+	padding: 0px 60px 0px 60px;
+	text-align: left;
+}
+
 .groundwork p,
 .groundwork h2 {
 	color: white;
@@ -292,4 +291,9 @@ a:hover {
 .community h2,
 .community h4 {
 	color: white;
+}
+
+.donation-link {
+	text-align: center;
+	font-size: 20px;
 }
